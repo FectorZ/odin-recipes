@@ -1,21 +1,40 @@
 body {
-    background-color: rgb(245, 170, 170);
-    text-align: left;
+    background-color: rgb(223, 248, 248);
 }
 
-h2,
-ul {
-    list-style: square;
+#main-description {
+    line-height: 1;
     text-align: center;
-    list-style-position: inside;
 }
 
-div.bottom{
-    border: black;
-    border-color: cyan;
+.main.header {
+    display: inline-block;
+    width: 500px;
+    border: 5px;
+    border-style: ridge;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+    line-height: 2;
 }
 
 button {
-    background-color: aqua;
-    color: black;
+    transition-duration: 0.4s;
+}
+      
+button:hover {
+    background-color: #04AA6D;
+    color: rgb(0, 0, 0);
+}
+
+h1,
+h2 {
+    background-color: rgb(252, 249, 229);
+    font-family: Tahoma;
+    text-align: center;
+    
 }

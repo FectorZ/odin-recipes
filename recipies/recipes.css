@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(223, 248, 248);
+}
+
+ol {
+    line-height: 1.2;
+}
+
+#image{
+    text-align: center;
+}
+
+#main-description {
+    line-height: 1.1;
+}
+
+.details {
+    line-height: 0.5;
+    text-align: center;
+}
+
+.recipe.card {
+    display: inline-block;
+    width: 500px;
+    border: 5px;
+    border-style: ridge;
+    border-color: rgb(0, 0, 0);
+    text-align: left;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.references {
+    text-align: left;
+    list-style-position: inside;
+}
+
+#link-heading {
+    display: inline-block;
+    width: 500px;
+    border: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+
+h1,
+h3,
+h4 {
+    background-color: rgb(252, 249, 229);
+    font-family: Tahoma;
+    text-align: center;
+}
